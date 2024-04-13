@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Room Booking</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            font-weight: bolder;
+            font-size: medium;
+            color: #ccc;
+            font-style: italic;
+
+
+        }
+
+
+        .form-container {
+            margin-top: 100px;
+            padding: 100px;
+            box-shadow: 0px 0px 10px 0px #ccc;
+        }
+
+        .btn-primary {
+            background-color: #2ecc71;
+            border-color: #2ecc71;
+        }
+
+        .btn-primary:hover {
+            background-color: #27ae60;
+            border-color: #27ae60;
+        }
+
+        .image-div {
+            background-image: url('/sdl305/diwali.jpg');
+            width: 100%;
+            /* specify your width */
+            height: 100%;
+            /* specify your height */
+            background-size: cover;
+            /* specify how you want the image to fit the container */
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- booking form starts here -->
+    <section>
+        <div class="image-div">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-md-5 offset-md-3 form-container">
+                        <h3 class="text-center">Book a Room</h3>
+                        <form>
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Name</label>
+                                <input type="text" class="form-control" id="exampleInputEmail1"
+                                    aria-describedby="emailHelp" placeholder="Enter your name">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Email address</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1"
+                                    aria-describedby="emailHelp" placeholder="Enter your email">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputPassword1">Phone Number</label>
+                                <input type="text" class="form-control" id="exampleInputPassword1"
+                                    placeholder="Enter your phone number">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputPassword1">Room Type</label>
+                                <select class="form-control">
+                                    <option>Single Room</option>
+                                    <option>Double Room</option>
+                                    <option>Suite</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputPassword1">Check-in Date</label>
+                                <input type="date" class="form-control" id="exampleInputPassword1">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputPassword1">Check-out Date</label>
+                                <input type="date" class="form-control" id="exampleInputPassword1">
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-block">Book Now</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    </section>
+
+    <!-- booking form close here -->
+    </body>
+
+
+</html>

@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+
+h1, h2 {
+    text-decoration: underline;
+    color: goldenrod;
+}
+
+.about {
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+
+.services, .achievements {
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* footer {
+    background-color: #e4e4e4;
+    padding: 20px;
+    text-align: center;
+} */
+
+
+
+
+
+
+
+
+
+.footer {
+    background-color: #f8f8f8;
+    /* padding: 40px 0; */
+    background-image: url(/image/floral-2622312_1280.webp);
+  }
+  
+  .footer h3 {
+    font-size: 20px;
+    font-weight: bold;
+    /* margin-bottom: 20px; */
+  }
+  
+  .footer p {
+    /* margin-bottom: 10px; */
+    font-weight: bold;
+  }
+  
+  .footer ul.social-media {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+  
+  }
+  
+  .footer ul.social-media li {
+    display: inline-block;
+    /* margin-right: 10px; */
+  }
+  
+  .footer ul.social-media li a {
+    color: #333;
+    font-size: 18px;
+  }
+  
+  .footer ul.services {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer ul.services li {
+    /* margin-bottom: 10px; */
+  }
+  
+  .footer ul.services li a {
+    color: #333;
+    font-size: 16px;
+  }
+  
+  .footer ul.services li i {
+    /* margin-right: 5px; */
+  }

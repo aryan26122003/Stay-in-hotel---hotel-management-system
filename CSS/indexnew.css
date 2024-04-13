@@ -1,0 +1,330 @@
+/*  top banner section */
+.banner{
+    height: 500px;
+    /* width: 100%; */
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.banner:nth-child(1){
+    
+    background-image: url("/image/corridor/hotel-928937_1280.jpg");
+
+}
+.banner:nth-child(2){
+    
+    background-image: url("/image/corridor/hotel-575085_1280.jpg");
+
+}
+.banner:nth-child(3){
+    
+    background-image: url("/image/corridor/outer\ window.jpg");
+
+}
+
+/* hotel wrap */
+#wrap{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 10px;
+}
+#wrap img{
+   border-top-right-radius: 10px;
+   border-top-left-radius: 10px;
+   height: 200px;
+}
+
+/* event */
+#event img{
+   width: 100%;
+}
+
+#event #google-play-badge{
+   width: 23%;
+   
+}
+
+
+#event #apple-store-badge{
+   width: 18%;
+}
+
+#hotel-wrap{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+}
+#hotel-wrap img{
+  width: 100%;
+  height: 250px;
+  border-bottom-left-radius: 10px ;
+  border-top-left-radius: 10px ;
+}
+/* banner section end here */
+
+.quote{
+  font-family: 'Lugrasimo', cursive;
+  
+}
+
+/* hotel option box wise */
+.hotel-option img{
+  width: 100%;
+}
+/* hotel option ends here */
+
+
+  /* contact form starts here */
+  #contact,#heading{
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+#heading{
+    text-align: center;
+}
+
+.contact {
+    width: 90%;
+    padding: 16px;
+    background-color: white;
+    margin: 0 auto;
+    /* border: 1px solid black; */
+    border-radius: 4%;
+}
+
+.contact input[type=text],
+.contact input[type=number],
+.contact select,
+.contact input[type=email] 
+.contact input[type=message] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid black;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+.contact button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.contact{
+    font-weight: bold;
+}
+
+.contact #lname {
+    float: right;
+    padding-top: 16px;
+}
+
+#lname:hover {
+    color: black;
+}
+
+/* @media screen and (max-width: 300px) {
+    .container {
+        width: 100%;
+        padding: 16px;
+    }
+} */
+.contact #phone{
+    width: 100%;
+    
+}
+#message{
+    height: 100px;
+    width: 100%;
+    border-radius: 8px;
+    border: 1px solid black;
+}
+  /* contact form css ends here */
+ 
+ 
+  /* footer css starts here */
+
+
+.footer {
+  background-color: #f8f8f8;
+  /* padding: 40px 0; */
+  background-image: url(/image/floral-2622312_1280.webp);
+}
+
+.footer h3 {
+  font-size: 20px;
+  font-weight: bold;
+  /* margin-bottom: 20px; */
+}
+
+.footer p {
+  /* margin-bottom: 10px; */
+  font-weight: bold;
+}
+
+.footer ul.social-media {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-weight: bold;
+
+}
+
+.footer ul.social-media li {
+  display: inline-block;
+  /* margin-right: 10px; */
+}
+
+.footer ul.social-media li a {
+  color: #333;
+  font-size: 18px;
+}
+
+.footer ul.services {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer ul.services li {
+  /* margin-bottom: 10px; */
+}
+
+.footer ul.services li a {
+  color: #333;
+  font-size: 16px;
+}
+
+.footer ul.services li i {
+  /* margin-right: 5px; */
+}
+
+
+/* footeer ends here */
+
+
+/* banquet hall spa swiming pool room service css starts here */
+
+
+
+#box-shadow{
+  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+  margin-top: 5%;
+}
+
+
+
+
+
+
+/* service  main page  css start */
+
+.bannerservice{
+  height: 500px;
+  /* width: 100%; */
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.bannerservice:nth-child(1){
+  
+  background-image: url("/image/spa/pool-3001209_1280.jpg");
+
+}
+.bannerservice:nth-child(2){
+  
+  background-image: url("/image/pool/relaxing-3112750_1280.jpg");
+
+}
+.bannerservice:nth-child(3){
+  
+  background-image: url("/image/restraurant/restro\ table.jpg");
+
+}
+.bannerservice:nth-child(4){
+  
+  background-image: url("/image/banquet/banquet\ dinner.jpg");
+
+}
+
+
+/* spa page */
+.bannerspa{
+  height: 500px;
+  /* width: 100%; */
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.bannerspa:nth-child(1){
+  
+  background-image: url("/image/spa/pool-3001209_1280.jpg");
+
+}
+.bannerspa:nth-child(2){
+  
+  background-image: url("/image/spa/spa2.jpg");
+
+}
+.bannerspa:nth-child(3){
+  
+  background-image: url("/image/spa/herbs-3119132_640.jpg");
+
+}
+
+/* banquet hall  banner starts */
+.bannerban{
+  height: 500px;
+  /* width: 100%; */
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.bannerban:nth-child(1){
+  
+  background-image: url("/image/banquet/priemeum.jpg");
+
+}
+.bannerban:nth-child(2){
+  
+  background-image: url("/image/banquet/banquet\ dinner.jpg");
+
+}
+.bannerban:nth-child(3){
+  
+  background-image: url("/image/banquet/banquet\ dinner.jpg");
+
+}
+/* banquet hall banner close */
+
+
+/* restaurant  banner starts */
+.bannerrest{
+  height: 500px;
+  /* width: 100%; */
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.bannerrest:nth-child(1){
+  
+  background-image: url("/image/food/food3.jpg");
+
+}
+.bannerrest:nth-child(2){
+  
+  background-image: url("/image/food/food1.jpg");
+
+}
+.bannerrest:nth-child(3){
+  
+  background-image: url("/image/food/food2.jpg");
+
+}
+/* banquet hall banner close */
+
+
+
